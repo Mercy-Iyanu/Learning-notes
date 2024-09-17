@@ -1,0 +1,12 @@
+Steps to keep in mind:
+
+1. get a website ready https://themewagon.com/theme-tag/travel-tourism/
+2. get your widget folder - copy the 3 files
+3. unzip your website inside a xampp/htdocs/abcwebsite-folder
+4. copy the 3 flight widget files into the direct src
+5. view on the browser
+6. duplicate index.html to index.php
+7. follow the instruction in the flight.widget.php and copy into index.php
+8. run xampp
+9. open index.php in browser localhost/(name-of-folder)
+
