@@ -22,7 +22,7 @@ Added
    right: 0,
   zIndex: 1000,
   elevation: 3,
-  borderRadius: 8,
+  borderRadius: 8
   borderBottomColor: '#3B3B3E',
   borderBottomWidth: 1,
   
