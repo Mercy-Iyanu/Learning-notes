@@ -1,0 +1,6 @@
+Your local changes would be overwritten by checkout:
+
+Stash & Checkout: Save changes for later, switch branches, and reapply changes later.
+Migrate Changes: Carry your local changes over to the new branch, possibly merging them.
+Force Checkout: Discard your changes and switch branches.
+Cancel: Stop the checkout process and stay where you are.
