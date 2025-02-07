@@ -1,0 +1,8 @@
+To add a local react-app to github repo
+- git init
+- git add .
+- git remote add origin
+- git push -u origin master/main/develop (name of the default app)
+
+assuming you want to remove the react-app from a repo use;
+- git remote rm origin
