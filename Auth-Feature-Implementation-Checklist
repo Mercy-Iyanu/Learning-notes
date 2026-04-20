@@ -1,0 +1,36 @@
+**Auth Feature Implementation Checklist**
+🔹 Planning & Design
+- Draft design docs (flow diagrams, sequence, expected inputs/outputs).
+- Define auth requirements (signup, login, JWT/session, roles, password reset, etc.).
+
+🔹 Backend
+- Create backend endpoints (/signup, /login, /logout, /refresh, /me, etc.).
+- Test backend endpoints with Postman (happy & edge cases).
+- Add validation & error handling (Yup/Joi/express-validator).
+
+🔹 Frontend Integration (MVP)
+- Build just enough FE components (forms, API hooks, context/provider).
+- Connect FE → BE endpoints.
+- Test FE manually (signup/login/logout flow works).
+
+🔹 Automated Testing
+- Write backend tests (unit + integration, e.g., Jest + Supertest).
+- Write frontend tests (form validation, API responses, protected routes).
+- Run BE + FE tests together.
+
+🔹 Security
+Add auth security checks:
+- Secure password hashing (bcrypt/argon2).
+- Token expiry + refresh flow.
+- Rate limiting / brute-force protection.
+- CORS, CSRF, HTTPS enforcement.
+- Retest BE + FE (ensure security didn’t break functionality).
+
+🔹 UI & Cleanup
+- Add basic styling for FE (just enough for usability).
+- Refactor & clean up codebase (remove unused code, add comments).
+
+🔹 Final Validation
+- Run full test cycle (manual + automated).
+- Confirm edge cases (expired token, invalid creds, multiple sessions).
+- Mark the feature as ready for release.
